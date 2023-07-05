@@ -1,0 +1,7 @@
+<h3>Utilisation des FormControls</h3>
+
+<div>
+  <label>Example d'input : </label>
+  <input placeholder="Exemple de FormControl" [formControl]="exampleControl" />
+  <button [disabled]="exampleControl.status !== 'VALID'">Valider</button>
+</div>
